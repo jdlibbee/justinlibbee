@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var nodemailer = require("nodemailer");
 var data = require("./config");
 
+var PORT = process.env.PORT || 3000;
 
 var app = express()
 
