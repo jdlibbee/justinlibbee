@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Justin LIbbee</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <img src="./Img/jdl logo 2.png" id="logo-container" href="#" class="brand-logo left">
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#portfolio" id="navlink">Portfolio</a>
+          <a href="#contact" id="navlink">Contact Me</a>
+          <a href="#bio" id="navlink">About Me</a>
+        </li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li>
+          <a href="#">Navbar Link</a>
+        </li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br>
+        <br>
+        <img src="./Img/aboutMe.png" alt="intro" id="intro">
+        <!-- <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div> -->
+        <br>
+        <br>
+
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="./Img/background5.jpg" id="image1" alt="Unsplashed background img 1">
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section" id="portfolio">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block center">
+            <h2 class="center brown-text">
+              <i class="material-icons">flash_on</i>
+            </h2>
+            <h5 class="center">Harry Potter Trivia</h5>
+
+            <p class="light">This is a dynamically created trivia game. The question are created with Javascript and JQuery, and are on the
+              screen for 10 seconds with a visible timer. Once the timer runs out, or the correct/incorrect answer is chosen
+              the answer will be revealed. Once all 10 questions have been answered, the results will show you how many the
+              user got right or wrong. The user will then have an option to play again. There are functions to create the
+              questions, answers, results, and to regulate the timers. THere are alos a few on click functions so that the
+              user has come control of the game.</p>
+            <a href="https://jdlibbee.github.io/triviaGame/">APP</a>
+            <a href="https://github.com/jdlibbee/triviaGame" id="git">GitHub</a>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block center">
+            <h2 class="center brown-text">
+              <i class="material-icons">group</i>
+            </h2>
+            <h5 class="center">RPG Battle Game</h5>
+
+            <p class="light">This game is based on the video game Dark Souls 3. It is a button click based game. The background, Fight button,
+              and the fight update space is hard coded into the HTML, while the characters and their stats are dynamic to
+              allow for ease of play. The code has examples of functions, and different if and else if statements along with
+              for loops. There are also good examples of concatenation to include variables into the different p and h3 tags.</p>
+            <a href="https://jdlibbee.github.io/starWarsRpgGame/">APP</a>
+            <a href="https://github.com/jdlibbee/starWarsRpgGame" id="git">GitHub</a>
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block center">
+            <h2 class="center brown-text">
+              <i class="material-icons">settings</i>
+            </h2>
+            <h5 class="center">Info Widget</h5>
+
+            <p class="light">Utilizing javascript and jquery I have created buttons that will ping the Giphy API and show 10 random giphys
+              of the anime that is titled on the chosen button. You can also add more options to choose from in the input
+              field at the top right of the screen. I've also attempted to allow for a download button, and a favorites button
+              to appear so that the user can hold on to their favorite giphs.</p>
+            <a href="https://jdlibbee.github.io/giphyApi/">APP</a>
+            <a href="https://github.com/jdlibbee/giphyApi" id="git">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block center">
+            <h2 class="center brown-text">
+              <i class="material-icons">casino</i>
+            </h2>
+            <h5 class="center">80's Movie Hangman</h5>
+
+            <p class="light">In the hangman game there are functions that after a win or loss it will reset the guessed word and then count
+              up the wins and losses. It will continue to randomly choose a word from the words array, and add the guessed
+              letters from what the user chooses on the keyboard. Once the user chooses the correct word, the image will
+              change to the movie poster, and play a sound clip from the movie. Should the user lose, it will change the
+              image to a game over sign, and play a wawa trombone sound.</p>
+            <a href="https://jdlibbee.github.io/word_guess_game/">APP</a>
+            <a href="https://github.com/jdlibbee/word_guess_game" id="git">GitHub</a>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block center">
+            <h2 class="center brown-text">
+              <i class="material-icons">find_in_page</i>
+            </h2>
+            <h5 class="center">Friend Finder</h5>
+
+            <p class="light">This is an app that will take the results of a survey and for loop through an objects array and find the best
+              match. This app uses different paths, express, and is pushed to Heroku as well.There is a combination of JQuery
+              and Javascript. Also, Materialize is used for the HTML and CSS of this app.</p>
+            <a href="https://friend-finder-fsf.herokuapp.com/">APP</a>
+            <a href="https://github.com/jdlibbee/friendFinder" id="git">GitHub</a>
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block center">
+            <h2 class="center brown-text">
+              <i class="material-icons">mood</i>
+            </h2>
+            <h5 class="center">Eat Your Burger</h5>
+
+            <p class="light">Utlizing the handlebars package along with mysql to allow for users to create burgers, and then to devour them.
+              The page utilizes bootstrap to design and have different columns. When a burger is created, there is a "devour"
+              button that will allow you to devour the burger and have it go to the eaten column.</p>
+            <a href="https://eatyoburger.herokuapp.com/" class="center">APP</a>
+            <a href="https://github.com/jdlibbee/burger/tree/master/burger" id="git">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <!-- <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div> -->
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="./Img/background2.jpg" alt="Unsplashed background img 2">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section" id="contact">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3>
+            <i class="mdi-content-send brown-text"></i>
+          </h3>
+          <h4>Contact Me</h4>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" name="action" id="submit">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="./img/background4.jpg" id="image3" alt="Unsplashed background img 3">
+    </div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text" id="bio">Justin's Bio</h5>
+          <p class="grey-text text-lighten-4">User-focused Web Developer with a passion for integrating new technologies to solve problems and improve upon existing
+            methods. Participated in the University of Utah 24-week Coding Bootcamp. Passionate about finding ways to improve
+            and simplify the user experience and collaborating with others to make the best interface possible for an easier
+            experience. Proficient in HTML and CSS, along with a solid grasp of JavaScript and jQuery.
+          </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <img src="./Img/me.png" alt="myself" id="me">
+          <!-- <h5 class="white-text">Settings</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 4</a>
+            </li>
+          </ul> -->
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="www.linkedin.com/in/justin-libbee">
+                <img src="./Img/linkedin.png">
+              </a>
+            </li>
+            <li>
+              <a class="white-text" href="https://github.com/jdlibbee">
+                <img src="./Img/gitHub.png">
+              </a>
+            </li>
+            <!-- <li>
+              <a class="white-text" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="white-text" href="#!">Link 4</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made With
+        <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="./js/app.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('input#input_text, textarea#textarea2').characterCounter();
+    });
+
+  </script>
+
+</body>
+
+</html>
