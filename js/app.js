@@ -33,4 +33,9 @@ $("#submit").on("click", function () {
             console.log('Email sent: ' + info.response);
         }
     });
+
+    $("#first_name").val(" ");
+    $("#last_name").val(" ");
+    $("#email").val(" ");
+    $("message").val(" ");
 })
