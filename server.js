@@ -55,4 +55,6 @@ app.post('/api/nodemailer', function (req, res) {
 })
 
 
-app.listen(3000)
+app.listen(PORT, function () {
+  console.log("Server listening on: http://localhost:" + PORT);
+})

@@ -4,7 +4,7 @@
   "description": "using nodemailer for my portfolio to submit the contact form.",
   "main": "./server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server"
   },
   "author": "Justin Libbee",
   "license": "ISC",
