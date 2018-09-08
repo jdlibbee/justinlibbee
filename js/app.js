@@ -9,7 +9,8 @@ var transporter = nodemailer.createTransport({
     }
 });
 
-$("#submit").on("click", function () {
+$("#submit").on("click", function (event) {
+    event.preventDefault();
     var firstName = $("#first_name").val().trim();
     var lastName = $("#last_name").val().trim();
     var email = $("#email").val().trim();
@@ -39,3 +40,5 @@ $("#submit").on("click", function () {
     $("#email").val(" ");
     $("message").val(" ");
 })
+
+
